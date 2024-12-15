@@ -1,14 +1,30 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
-MinimumVisualStudioVersion = 10.0.40219.1
+VisualStudioVersion = 17.8.0.0
+MinimumVisualStudioVersion = 17.8.0.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "azure-function-rate-limit.AppHost", "azure-function-rate-limit.AppHost\azure-function-rate-limit.AppHost.csproj", "{F12BDDFA-D4DF-4572-90AB-BB39D58CA127}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "azure-function-rate-limit.ServiceDefaults", "azure-function-rate-limit.ServiceDefaults\azure-function-rate-limit.ServiceDefaults.csproj", "{64EF7562-52CE-4B56-B01D-1ECE83C2BF18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F12BDDFA-D4DF-4572-90AB-BB39D58CA127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F12BDDFA-D4DF-4572-90AB-BB39D58CA127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F12BDDFA-D4DF-4572-90AB-BB39D58CA127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F12BDDFA-D4DF-4572-90AB-BB39D58CA127}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64EF7562-52CE-4B56-B01D-1ECE83C2BF18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64EF7562-52CE-4B56-B01D-1ECE83C2BF18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64EF7562-52CE-4B56-B01D-1ECE83C2BF18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64EF7562-52CE-4B56-B01D-1ECE83C2BF18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA17AD3A-75BB-45B1-ACC5-D8441D1935D7}
 	EndGlobalSection
 EndGlobal
