@@ -1,3 +1,4 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.0.0
@@ -5,6 +6,13 @@ MinimumVisualStudioVersion = 17.8.0.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "azure-function-rate-limit.AppHost", "azure-function-rate-limit.AppHost\azure-function-rate-limit.AppHost.csproj", "{F12BDDFA-D4DF-4572-90AB-BB39D58CA127}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "azure-function-rate-limit.ServiceDefaults", "azure-function-rate-limit.ServiceDefaults\azure-function-rate-limit.ServiceDefaults.csproj", "{64EF7562-52CE-4B56-B01D-1ECE83C2BF18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{644F520D-7426-4B43-998B-B4BD11E80402}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		.gitignore = .gitignore
+		.tool-versions = .tool-versions
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
